@@ -1,11 +1,11 @@
 // favicon
-var counter		    = 1;
-var NumberOfPics	= 2 + 1;
-var nodeFavicon		= document.getElementsByTagName("link");
+let counter		    = 1;
+let NumberOfPics	= 2 + 1;
+let nodeFavicon		= document.getElementsByTagName("link");
  
 function animateFavicon() {
  //console.log(counter); // для отладки счётчика в консоли
-    for (var i = 0; i < nodeFavicon.length; i++)
+    for (let i = 0; i < nodeFavicon.length; i++)
     {
       if( (nodeFavicon[i].getAttribute("rel") == "icon") || (nodeFavicon[i].getAttribute("rel") == "shortcut icon"))
       {

@@ -118,6 +118,7 @@
 @media(max-width:550px) {
   .container {
     width: 549px;
+    margin: 0 auto;
   }
 
   .header {
